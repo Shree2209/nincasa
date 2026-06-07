@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nincasa | Artisanal Brewery, Bar & Kitchen</title>
+  <meta name="description" content="Experience nincasa - an exquisite fusion of high-end culinary arts and in-house craft brewing. Savor gourmet plates paired with legendary liquid gold.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">
+      <svg class="logo-icon" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+      </svg>
+      <span class="logo-text gold-text">nincasa</span>
+    </div>
+    
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">The Concept</a></li>
+      <li><a href="#brewery">The Brewery</a></li>
+      <li><a href="#kitchen">The Kitchen</a></li>
+      <li><a href="#experience">Reservations</a></li>
+      <li class="nav-cta-mobile" style="display: none;">
+        <a href="#experience" class="nav-cta">Book Table</a>
+      </li>
+    </ul>
+
+    <div class="nav-cta-container">
+      <a href="#experience" class="nav-cta">Book Table</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-badge reveal">Artisanal Brewery, Bar & Kitchen</span>
+      <h1 class="hero-title reveal reveal-delay-1">House of <span class="gold-text">Brews</span></h1>
+      <p class="hero-subtitle reveal reveal-delay-2">An immersive culinary sanctuary where our state-of-the-art microbrewery feeds directly to your glass. Savor premium beers, indulge in bold gastronomy.</p>
+      <div class="hero-btn-container reveal reveal-delay-3">
+        <a href="#experience" class="btn-primary">Reserve a Table</a>
+        <a href="#kitchen" class="btn-secondary">Explore The Menu</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Concept / About Section -->
+  <section id="about" class="about">
+    <div class="section-bg-gradient"></div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <span class="section-subtitle">The Concept</span>
+          <h2 class="section-title">A Symphony of <span class="gold-text">Grain & Gastronomy</span></h2>
+          <div class="about-text">
+            <p>At Nincasa, we have reimagined the craft dining experience. Named in honor of Ninkasi, the ancient Sumerian goddess of beer, our venue features a fully operating, state-of-the-art artisanal brewery in the heart of our dining hall.</p>
+            <p>Every plate that leaves our kitchen is designed to dialogue with a pour from our copper maturation tanks. Guests enjoy exclusive access to limited-batch brews, custom food pairings, and a sophisticated lounge atmosphere detailed in brushed brass and slate.</p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-title">Direct Tank Taps</div>
+              <p class="highlight-desc">Freshly crafted beers piped directly to our main taproom bar at optimal temperatures.</p>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-title">Artisanal Pairings</div>
+              <p class="highlight-desc">Every menu item is paired with a specific house brew to elevate contrasting flavors.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-images reveal reveal-delay-2">
+          <div class="about-img-wrapper">
+            <img src="assets/hero_brewery.png" alt="Nincasa Taproom & Brewery Kettles">
+          </div>
+          <div class="about-img-secondary">
+            <img src="https://images.unsplash.com/photo-1555658636-6e4a36218be7?auto=format&fit=crop&w=600&q=80" alt="Plated Dish and Taproom Design">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brewery / Beer Collection Section -->
+  <section id="brewery" class="brewery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Our Brews</span>
+        <h2 class="section-title">The Artisanal <span class="gold-text">Collection</span></h2>
+        <p>Hand-crafted in micro-batches by our resident Brewmaster, using premium water and imported organic ingredients.</p>
+      </div>
+
+      <div class="brewery-grid">
+        <!-- Beer 1 -->
+        <div class="beer-card glass-panel reveal">
+          <div class="beer-img-container">
+            <img src="https://images.unsplash.com/photo-1567696911980-2eed69a4604d?auto=format&fit=crop&w=600&q=80" alt="Nincasa Golden Pilsner">
+            <span class="beer-badge">Signature</span>
+          </div>
+          <div class="beer-info">
+            <div class="beer-meta">
+              <span>Lager / Crisp</span>
+            </div>
+            <h3 class="beer-title">Golden Pilsner</h3>
+            <p>A crisp, double-lagered pilsner with subtle floral notes, high-quality Saaz hops, and a clean, refreshing golden finish.</p>
+            <div class="beer-specs">
+              <div class="beer-spec-item">ABV: <span>4.8%</span></div>
+              <div class="beer-spec-item">IBU: <span>18</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beer 2 -->
+        <div class="beer-card glass-panel reveal reveal-delay-1">
+          <div class="beer-img-container">
+            <img src="assets/craft_beer.png" alt="Hazy Horizon IPA">
+            <span class="beer-badge">Popular</span>
+          </div>
+          <div class="beer-info">
+            <div class="beer-meta">
+              <span>IPA / Citrusy</span>
+            </div>
+            <h3 class="beer-title">Hazy Horizon IPA</h3>
+            <p>A vibrant, unfiltered IPA double-dry hopped with Citra and Mosaic, offering intense citrus aromas and a soft tropical fruit profile.</p>
+            <div class="beer-specs">
+              <div class="beer-spec-item">ABV: <span>7.0%</span></div>
+              <div class="beer-spec-item">IBU: <span>55</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beer 3 -->
+        <div class="beer-card glass-panel reveal reveal-delay-2">
+          <div class="beer-img-container">
+            <img src="https://images.unsplash.com/photo-1608270176050-1b775821163d?auto=format&fit=crop&w=600&q=80" alt="Amber Stout">
+            <span class="beer-badge">Limited</span>
+          </div>
+          <div class="beer-info">
+            <div class="beer-meta">
+              <span>Stout / Bold</span>
+            </div>
+            <h3 class="beer-title">Amber Nectar Stout</h3>
+            <p>A velvety stout brewed with chocolate malts, freshly roasted espresso beans, and finished with a subtle hint of caramel sweetness.</p>
+            <div class="beer-specs">
+              <div class="beer-spec-item">ABV: <span>6.2%</span></div>
+              <div class="beer-spec-item">IBU: <span>35</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kitchen / Food Menu Section -->
+  <section id="kitchen" class="kitchen">
+    <div class="section-bg-gradient"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Our Plates</span>
+        <h2 class="section-title">The Culinary <span class="gold-text">Menu</span></h2>
+        <p>Gastronomic creations designed to balance, complement, and elevate the complex flavor profiles of our craft beer.</p>
+      </div>
+
+      <div class="menu-showcase">
+        <!-- Item 1 -->
+        <div class="menu-item-card reveal">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Stout-Glazed Beef Ribs">
+          </div>
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Stout-Glazed Beef Ribs</h3>
+              <span class="menu-item-price">$36</span>
+            </div>
+            <p class="menu-item-desc">Slow-braised for 12 hours in our Amber Nectar Stout, served over smoked garlic mash and charred heirloom baby carrots.</p>
+            <div class="menu-item-pairing">
+              <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              Pairs with: Amber Nectar Stout
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="menu-item-card reveal reveal-delay-1">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1543353071-10c8ba85a904?auto=format&fit=crop&w=800&q=80" alt="Brewmaster Ribeye">
+          </div>
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Brewmaster Ribeye</h3>
+              <span class="menu-item-price">$48</span>
+            </div>
+            <p class="menu-item-desc">14-day dry-aged steak cooked over open oak flame, topped with compound hop butter and crispy hand-cut sea salt fries.</p>
+            <div class="menu-item-pairing">
+              <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              Pairs with: Hazy Horizon IPA
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="menu-item-card reveal reveal-delay-2">
+          <div class="menu-item-img">
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80" alt="Wood-Fired Hops Flatbread">
+          </div>
+          <div class="menu-item-content">
+            <div class="menu-item-header">
+              <h3 class="menu-item-title">Wood-Fired Flatbread</h3>
+              <span class="menu-item-price">$22</span>
+            </div>
+            <p class="menu-item-desc">Artisanal wild yeast dough topped with caramelized sweet onions, local goat cheese, fresh figs, and a drizzle of hot honey.</p>
+            <div class="menu-item-pairing">
+              <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              Pairs with: Golden Pilsner
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Experience (Beer Matcher & Reservations) -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Interactive</span>
+        <h2 class="section-title">Curated <span class="gold-text">Experiences</span></h2>
+        <p>Discover your ultimate beer and food profile or reserve your dining table and guided brewery tasting sessions.</p>
+      </div>
+
+      <div class="experience-layout">
+        <!-- Interactive Craft Beer Matcher -->
+        <div class="quiz-container glass-panel reveal">
+          <h3 class="quiz-title">Craft Brew <span class="gold-text">Matcher</span></h3>
+          <p class="quiz-subtitle">Answer 3 simple questions to discover your custom Nincasa brew and dish profile.</p>
+
+          <!-- Step 1 -->
+          <div class="quiz-step active" data-step="1">
+            <h4 class="quiz-question">1. Which flavor notes appeal to you the most?</h4>
+            <div class="quiz-options">
+              <div class="quiz-option" data-value="crisp">
+                <div class="quiz-circle"></div>
+                <span>Crisp, dry, and floral hops</span>
+              </div>
+              <div class="quiz-option" data-value="citrusy">
+                <div class="quiz-circle"></div>
+                <span>Tropical, bold, and intense citrus aromas</span>
+              </div>
+              <div class="quiz-option" data-value="bold">
+                <div class="quiz-circle"></div>
+                <span>Dark roasted coffee, cocoa, and caramel</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="quiz-step" data-step="2">
+            <h4 class="quiz-question">2. What is your preference on beer strength (ABV)?</h4>
+            <div class="quiz-options">
+              <div class="quiz-option" data-value="light">
+                <div class="quiz-circle"></div>
+                <span>Light & Sessionable (under 5.0%)</span>
+              </div>
+              <div class="quiz-option" data-value="medium">
+                <div class="quiz-circle"></div>
+                <span>Balanced & Moderate (5.0% - 6.5%)</span>
+              </div>
+              <div class="quiz-option" data-value="heavy">
+                <div class="quiz-circle"></div>
+                <span>Robust & Complex (above 6.5%)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="quiz-step" data-step="3">
+            <h4 class="quiz-question">3. How do you describe your perfect evening out?</h4>
+            <div class="quiz-options">
+              <div class="quiz-option" data-value="relaxing">
+                <div class="quiz-circle"></div>
+                <span>Unwinding on an open courtyard garden terrace</span>
+              </div>
+              <div class="quiz-option" data-value="lively">
+                <div class="quiz-circle"></div>
+                <span>Socializing in a energetic taproom with pairings</span>
+              </div>
+              <div class="quiz-option" data-value="cozy">
+                <div class="quiz-circle"></div>
+                <span>A warm, candlelit sit-down multi-course dinner</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Result Screen -->
+          <div class="quiz-result" id="quiz-result">
+            <h4 class="quiz-question">Your Crafted Match is:</h4>
+            <div class="beer-recommender">
+              <h5 class="recommended-beer-name" id="match-name">Golden Pilsner</h5>
+              <p class="recommended-beer-desc" id="match-desc">Your taste buds align with clean, crisp, and refreshing profiles. The Golden Pilsner is your ideal beverage for unwinding.</p>
+              <button class="btn-secondary" id="btn-reset-quiz">Retake Matcher</button>
+            </div>
+          </div>
+
+          <!-- Quiz Footer Navigation -->
+          <div class="quiz-footer" id="quiz-footer">
+            <button class="btn-quiz-nav" id="btn-prev" disabled>Back</button>
+            <div class="quiz-progress" id="quiz-progress">Step 1 of 3</div>
+            <button class="btn-quiz-nav" id="btn-next">Next</button>
+          </div>
+        </div>
+
+        <!-- Booking Form Container -->
+        <div class="booking-container glass-panel reveal reveal-delay-1">
+          <h3 class="booking-title">Secure a <span class="gold-text">Reservation</span></h3>
+          <p class="booking-subtitle">Indulge in our dining plates or secure a tasting experience in our taproom.</p>
+
+          <div class="booking-tabs">
+            <button class="booking-tab active" data-target="pane-dining">Dining Table</button>
+            <button class="booking-tab" data-target="pane-events">Tasting Event</button>
+          </div>
+
+          <!-- Table Booking Form -->
+          <form id="pane-dining" class="booking-form-pane active">
+            <div class="form-group">
+              <label for="dining-name">Full Name</label>
+              <input type="text" id="dining-name" required placeholder="Alexander Mercer">
+            </div>
+            <div class="form-group">
+              <label for="dining-email">Email Address</label>
+              <input type="email" id="dining-email" required placeholder="alex@mercer.com">
+            </div>
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label for="dining-zone">Dining Zone</label>
+                <select id="dining-zone" required>
+                  <option value="main">Main Dining Room</option>
+                  <option value="taproom">Brewery Taproom Hall</option>
+                  <option value="patio">Courtyard Hops Garden</option>
+                  <option value="chefs-counter">Chef's Table Counter</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="dining-guests">Guests</label>
+                <select id="dining-guests" required>
+                  <option value="1">1 Person</option>
+                  <option value="2" selected>2 People</option>
+                  <option value="4">4 People</option>
+                  <option value="6">6 People</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label for="dining-date">Date</label>
+                <input type="date" id="dining-date" required>
+              </div>
+              <div class="form-group">
+                <label for="dining-time">Time</label>
+                <select id="dining-time" required>
+                  <option value="17:00">5:00 PM</option>
+                  <option value="18:30">6:30 PM</option>
+                  <option value="20:00">8:00 PM</option>
+                  <option value="21:30">9:30 PM</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="booking-btn">Reserve Dinner Table</button>
+          </form>
+
+          <!-- Tasting Event Booking Form -->
+          <form id="pane-events" class="booking-form-pane">
+            <div class="form-group">
+              <label for="event-name">Full Name</label>
+              <input type="text" id="event-name" required placeholder="Alexander Mercer">
+            </div>
+            <div class="form-group">
+              <label for="event-email">Email Address</label>
+              <input type="email" id="event-email" required placeholder="alex@mercer.com">
+            </div>
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label for="event-type">Tasting Type</label>
+                <select id="event-type" required>
+                  <option value="flight">Brewmaster Tasting Flight (5 beers)</option>
+                  <option value="vip">Full Brewery Tour & Dinner Pairings</option>
+                  <option value="masterclass">Beer Sommelier Masterclass</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="event-guests">Guests</label>
+                <select id="event-guests" required>
+                  <option value="1">1 Person</option>
+                  <option value="2" selected>2 People</option>
+                  <option value="4">4 People</option>
+                  <option value="8">8+ People</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label for="event-date">Date</label>
+                <input type="date" id="event-date" required>
+              </div>
+              <div class="form-group">
+                <label for="event-time">Time Slot</label>
+                <select id="event-time" required>
+                  <option value="16:00">4:00 PM</option>
+                  <option value="18:00">6:00 PM</option>
+                  <option value="20:00">8:00 PM</option>
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="booking-btn">Book Tasting Experience</button>
+          </form>
+
+          <!-- Success Alert -->
+          <div class="booking-status" id="booking-status">
+            Reservation request submitted. A Nincasa host will email your confirmation shortly.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+          <span class="logo-text gold-text">nincasa</span>
+        </div>
+        <p>A sophisticated gastropub and microbrewery blending culinary mastery with premium in-house craft brewing.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.885v1.115h3l-.5 3h-2.5v8h-3v-8h-2v-3h2v-2.084c0-2.24 1.358-3.416 3.322-3.416.941 0 1.75.07 1.985.1v2.1z"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Twitter">
+            <svg viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">The Concept</a></li>
+          <li><a href="#brewery">The Brewery</a></li>
+          <li><a href="#kitchen">The Kitchen</a></li>
+          <li><a href="#experience">Reservations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Hours & Location</h4>
+        <ul>
+          <li style="color: var(--text-secondary); font-size: 0.95rem;">Hop Gardens Rd, Golden Ridge</li>
+          <li style="color: var(--text-secondary); font-size: 0.95rem;">Bar: 12 PM - 12 AM</li>
+          <li style="color: var(--text-secondary); font-size: 0.95rem;">Kitchen: 12 PM - 10 PM</li>
+          <li style="color: var(--text-secondary); font-size: 0.95rem;">Reservations: +1 (800) NINCASA</li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4>The Club Dispatch</h4>
+        <p>Subscribe to receive announcements on reserve releases and tasting dinners.</p>
+        <form class="newsletter-form" id="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!'); this.reset();">
+          <input type="email" placeholder="goddess@brew.com" required>
+          <button type="submit" class="newsletter-btn">Join</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 nincasa Brewery, Bar & Kitchen. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
