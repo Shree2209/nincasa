@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu — Nincasa | Craft Brewery & Kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav" id="navbar">
+        <a href="index.html" class="nav-logo">
+            <img src="logo.png" alt="Nincasa" class="nav-logo-img">
+        </a>
+        <ul class="nav-links">
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="brewery.html">Brewery</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html" class="nav-cta">Reserve a Table</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="menu.html">Menu</a>
+        <a href="brewery.html">Brewery</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html" class="mobile-cta">Reserve a Table</a>
+    </div>
+
+    <header class="page-header">
+        <div class="container">
+            <span class="section-tag">The Menu</span>
+            <h1 style="font-family: var(--font-logo), serif; font-weight: 400; letter-spacing: 2px;">Fire, Flavour & Craft</h1>
+            <p class="page-subtitle">Everything is cooked over wood fire or charcoal. Every dish is designed to pair with our house brews. Menu changes with the seasons.</p>
+        </div>
+    </header>
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="food">Food</button>
+                <button class="menu-tab" data-tab="beer">Beer</button>
+                <button class="menu-tab" data-tab="cocktails">Cocktails</button>
+            </div>
+
+            <!-- Food Menu -->
+            <div class="menu-panel active" id="food">
+                <div class="menu-category">
+                    <h2 class="menu-cat-title"><span>Starters</span></h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Charred Octopus</h3>
+                                <span class="menu-item-price">₹850</span>
+                            </div>
+                            <p>Wood-fired octopus, smoked paprika, charred lemon, olive oil. Pairs with Citrus Wit.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Burrata & Heirloom Tomatoes</h3>
+                                <span class="menu-item-price">₹720</span>
+                            </div>
+                            <p>Fresh burrata, heritage tomatoes, basil oil, aged balsamic, sourdough crostini.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Wood-Fired Wings</h3>
+                                <span class="menu-item-price">₹650</span>
+                            </div>
+                            <p>Charcoal-grilled wings, house-made hot sauce, blue cheese dip. Pairs with Golden Haze IPA.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Truffle Arancini</h3>
+                                <span class="menu-item-price">₹580</span>
+                            </div>
+                            <p>Black truffle risotto balls, mozzarella centre, garlic aioli.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h2 class="menu-cat-title"><span>Mains</span></h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Wood-Fired Ribeye <span class="menu-badge">Signature</span></h3>
+                                <span class="menu-item-price">₹1,850</span>
+                            </div>
+                            <p>28-day aged ribeye, oak-charred, bone marrow butter, charred spring onions. Pairs with Oak & Ember Stout.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Charred Sea Bass</h3>
+                                <span class="menu-item-price">₹1,450</span>
+                            </div>
+                            <p>Line-caught sea bass, fennel pollen, saffron beurre blanc, charred lemon. Pairs with Citrus Wit.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Lamb Shank Biryani</h3>
+                                <span class="menu-item-price">₹1,250</span>
+                            </div>
+                            <p>Slow-braised lamb shank, aged basmati, saffron, caramelised onions, mint raita. Pairs with Monsoon Ale.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Truffle & Burrata Pizza <span class="menu-badge">New</span></h3>
+                                <span class="menu-item-price">₹950</span>
+                            </div>
+                            <p>Sourdough crust, black truffle cream, fresh burrata, parmesan, wild arugula. Pairs with Golden Haze IPA.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Charcoal Grilled Paneer</h3>
+                                <span class="menu-item-price">₹780</span>
+                            </div>
+                            <p>House-made paneer, tandoori marinade, smoked tomato chutney, pickled onions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                    <h2 class="menu-cat-title"><span>Desserts</span></h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Stout Chocolate Cake</h3>
+                                <span class="menu-item-price">₹450</span>
+                            </div>
+                            <p>Dark chocolate cake made with our Oak & Ember Stout, salted caramel, vanilla ice cream.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Charred Pineapple</h3>
+                                <span class="menu-item-price">₹380</span>
+                            </div>
+                            <p>Wood-fired pineapple, coconut cream, toasted cashews, chilli salt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beer Menu -->
+            <div class="menu-panel" id="beer">
+                <div class="menu-category">
+                    <h2 class="menu-cat-title"><span>House Brews on Tap</span></h2>
+                    <div class="beer-items">
+                        <div class="beer-row">
+                            <div class="beer-info">
+                                <h3>Golden Haze IPA</h3>
+                                <p>Tropical, hazy, unfiltered. Notes of mango, passionfruit, and soft pine. Our bestseller.</p>
+                            </div>
+                            <div class="beer-meta">
+                                <span class="beer-abv">6.8%</span>
+                                <span class="beer-price">₹450 / ₹750</span>
+                            </div>
+                        </div>
+                        <div class="beer-row">
+                            <div class="beer-info">
+                                <h3>Oak & Ember Stout</h3>
+                                <p>Smoked, rich, dark chocolate. Aged on oak chips. Bold, complex, unforgettable.</p>
+                            </div>
+                            <div class="beer-meta">
+                                <span class="beer-abv">7.2%</span>
+                                <span class="beer-price">₹480 / ₹800</span>
+                            </div>
+                        </div>
+                        <div class="beer-row">
+                            <div class="beer-info">
+                                <h3>Citrus Wit</h3>
+                                <p>Coriander, orange peel, crisp. Belgian-style wheat beer. Refreshing and bright.</p>
+                            </div>
+                            <div class="beer-meta">
+                                <span class="beer-abv">4.9%</span>
+                                <span class="beer-price">₹380 / ₹650</span>
+                            </div>
+                        </div>
+                        <div class="beer-row">
+                            <div class="beer-info">
+                                <h3>Monsoon Ale <span class="menu-badge">Seasonal</span></h3>
+                                <p>Spiced, warming, amber. Cinnamon, clove, and caramel malts. Perfect for Pune rains.</p>
+                            </div>
+                            <div class="beer-meta">
+                                <span class="beer-abv">5.5%</span>
+                                <span class="beer-price">₹420 / ₹700</span>
+                            </div>
+                        </div>
+                        <div class="beer-row">
+                            <div class="beer-info">
+                                <h3>Sour Cherry Gose</h3>
+                                <p>Tart, salty, fruity. First barrel-aged sour from our brewery. Limited batch.</p>
+                            </div>
+                            <div class="beer-meta">
+                                <span class="beer-abv">5.2%</span>
+                                <span class="beer-price">₹500 / ₹850</span>
+                            </div>
+                        </div>
+                        <div class="beer-row">
+                            <div class="beer-info">
+                                <h3>Pilsner No. 7</h3>
+                                <p>Crisp, clean, classic. German-style pilsner. The beer that started it all.</p>
+                            </div>
+                            <div class="beer-meta">
+                                <span class="beer-abv">4.8%</span>
+                                <span class="beer-price">₹350 / ₹600</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-note">
+                    <p><strong>Tasting Flight:</strong> Five 150ml pours of your choice — ₹1,200. Ask your server for pairing recommendations.</p>
+                </div>
+            </div>
+
+            <!-- Cocktails -->
+            <div class="menu-panel" id="cocktails">
+                <div class="menu-category">
+                    <h2 class="menu-cat-title"><span>House Cocktails</span></h2>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Smoked Old Fashioned</h3>
+                                <span class="menu-item-price">₹650</span>
+                            </div>
+                            <p>Bourbon, house-smoked maple syrup, angostura bitters, orange peel. Smoked tableside.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Beer Mojito</h3>
+                                <span class="menu-item-price">₹550</span>
+                            </div>
+                            <p>White rum, fresh mint, lime, topped with our Citrus Wit. Unexpected and excellent.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Charred Margarita</h3>
+                                <span class="menu-item-price">₹580</span>
+                            </div>
+                            <p>Tequila, charred jalapeño, agave, lime, smoked salt rim.</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h3>Espresso Stout Martini</h3>
+                                <span class="menu-item-price">₹620</span>
+                            </div>
+                            <p>Vodka, fresh espresso, coffee liqueur, finished with a float of Oak & Ember Stout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Dine?</h2>
+                <p>Reserve your table and let us take care of the rest.</p>
+                <a href="contact.html" class="btn btn-gold btn-large">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="footer-logo" style="font-family: var(--font-logo), serif; letter-spacing: 4px; font-weight: 400;">NINCASA</span>
+                    <p>Craft brewery & kitchen in the heart of Pune.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="menu.html">Food Menu</a></li>
+                        <li><a href="brewery.html">Beer Menu</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Visit Us</h4>
+                    <ul>
+                        <li>Lane 7, Koregaon Park</li>
+                        <li>Pune, Maharashtra 411001</li>
+                        <li><a href="tel:+918XXXXXXXX1">+91 8XXXXXXXX1</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2026 Nincasa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
